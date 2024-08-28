@@ -193,8 +193,3 @@ function Component() {
 3. **Import and Use**: Use `useContext` to access and modify the context values wherever needed.
 
 This structure should help you understand and implement the Context API in your React applications.
-
-```
-
-Feel free to adjust the formatting or add additional details as needed!
-```
