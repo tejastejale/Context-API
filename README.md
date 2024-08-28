@@ -1,6 +1,6 @@
 Certainly! Here’s how you can format the given text into a Markdown (.md) file:
 
-````markdown
+
 # Context API in React
 
 The Context API is a React feature that enables components to share values, such as variable states, user authentication, themes, or language settings, across the entire app. This allows you to easily share data across components without passing the data through each level of the component tree via props.
@@ -21,7 +21,6 @@ const App = () => {
   );
 };
 ```
-````
 
 ## ContextConsumer
 
