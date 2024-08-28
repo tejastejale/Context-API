@@ -12,6 +12,7 @@ function Checkout() {
   function handleHideChart() {
     userProgressContext.hideCart();
   }
+
   function handleSubmit(e) {
     e.preventDefault();
     const fd = new FormData(e.target);
@@ -28,10 +29,13 @@ function Checkout() {
         },
       }),
     });
+    handleHideChart();
+    cartContext.clearCart();
   }
   const cartTotal = cartContext.items.reduce((totalPrice, item) => {
     return totalPrice + item.quantity * item.price;
   }, 0);
+
   return (
     <Modal
       open={userProgressContext.progress === "checkout"}
