@@ -1,4 +1,3 @@
-Certainly! Here’s how you can format the given text into a Markdown (.md) file:
 
 
 # Context API in React
